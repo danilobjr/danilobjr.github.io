@@ -73,9 +73,9 @@ a#pdf:hover { background: #222; }
 
 #contact
 {
-	position: absolute;
-	top: 30px;
-	left: 157px;
+	position: relative;
+	top: -40px;
+	left: 0;
 }
 
 .noBottomMargin
