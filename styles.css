@@ -37,7 +37,7 @@ section > div {
 footer {
   height: 72px;
   border-top: 1px solid #ccc;
-  font-size: 92%;
+  font-size: .8rem;
 
   display: flex;
   justify-content: center;
@@ -46,16 +46,15 @@ footer {
 
 footer > p {
   margin-bottom: 0;
-  font-size: .8rem;
   text-align: center;
 }
 
 h2 {
-  font-size: 152%
+  font-size: 1.2rem;
 }
 
 h3, h4 {
-  font-size: 122%;
+  font-size: 1rem;;
 }
 
 h1, h2, h3, h4 {
@@ -63,7 +62,7 @@ h1, h2, h3, h4 {
 }
 
 p {
-  font-size: 100%;
+  font-size: .8rem;
   line-height: 18px;
   padding-right: 3em;
 }
@@ -82,7 +81,8 @@ li {
 }
 
 p.enlarge {
-  font-size: 144%; line-height: 24px;
+  font-size: 1.2rem;
+  line-height: 24px;
 }
 
 .download-button {
