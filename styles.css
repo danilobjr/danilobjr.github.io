@@ -1,0 +1,171 @@
+/*
+---------------------------------------------------------------------------------
+	STRIPPED DOWN RESUME TEMPLATE
+    html resume
+    v0.9: 5/28/09
+    design by: thingsthatarebrown.com (matt brown)
+---------------------------------------------------------------------------------
+*/
+
+body {
+  font-family: Georgia;
+  color: #444;
+}
+
+main {
+  width: 73.076em;
+  margin: auto;
+  text-align: left;
+}
+
+section {
+  margin-bottom: 2em;
+  padding-bottom: 2em;
+  border-bottom: 1px solid #ccc;
+  display: flex;
+}
+
+section > h2 {
+  font-style: italic;
+  flex-basis: 170px;
+}
+
+section > div {
+  flex-grow: 1;
+}
+
+footer {
+  height: 72px;
+  border-top: 1px solid #ccc;
+  font-size: 92%;
+
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+footer > p {
+  margin-bottom: 0;
+  font-size: .8rem;
+  text-align: center;
+}
+
+h2 {
+  font-size: 152%
+}
+
+h3, h4 {
+  font-size: 122%;
+}
+
+h1, h2, h3, h4 {
+  color: #333;
+}
+
+p {
+  font-size: 100%;
+  line-height: 18px;
+  padding-right: 3em;
+}
+
+a {
+  color: #990003
+}
+
+a:hover {
+  text-decoration: none;
+}
+
+li {
+  line-height: 24px;
+  border-bottom: 1px solid #ccc;
+}
+
+p.enlarge {
+  font-size: 144%; line-height: 24px;
+}
+
+.download-button {
+  position: relative;
+  top: -40px;
+  left: 0;
+}
+
+.container {
+  padding: 10px 80px;
+  margin: 80px auto;
+  background: #f5f5f5;
+  border: solid #666;
+  border-width: 8px 0 2px 0;
+}
+
+.container > header {
+  margin: 2.5em 0 3em 0;
+  padding-bottom: 1.5em;
+  border-bottom: 1px solid #ccc
+}
+
+.container > header h1 {
+  font-size: 48px;
+  text-transform: uppercase;
+  letter-spacing: 3px;
+}
+
+.container > header h2 {
+  font-style: italic;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+}
+
+.contact-info {
+  margin-top: 7px;
+}
+
+.contact-info > a {
+  display: block;
+  float: left;
+  padding: 6px 12px;
+  margin-bottom: 6px;
+  color: white;
+  font-size: 1rem;
+  text-decoration: none;
+  background: #666;
+}
+
+.contact-info > a:hover {
+  background: #222;
+}
+
+.job {
+  position: relative;
+  margin-bottom: 1em;
+  padding-bottom: 1em;
+  border-bottom: 1px solid #ccc;
+}
+
+.job h4 {
+  position: absolute;
+  top: 0.35em;
+  right: 0
+}
+
+.talent {
+  width: 32%;
+  float: left;
+}
+
+.talent h2 {
+  margin-bottom: 6px;
+}
+
+.no-padding-bottom {
+  padding-bottom: 0 !important;
+}
+
+.no-margin-bottom {
+  margin-bottom: 0 !important;
+}
+
+.no-border-bottom {
+  border-bottom: 0 !important;
+}
