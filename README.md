@@ -1,1 +1,1 @@
-# [My resume](http://danilobjr.github.io/resume/)
+# [My resume](http://danilobjr.github.io/)
