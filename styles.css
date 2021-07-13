@@ -69,11 +69,12 @@ p {
 }
 
 a {
-  color: #990003
+  color: #990003;
+  text-decoration: none;
 }
 
 a:hover {
-  text-decoration: none;
+  text-decoration: underline;
 }
 
 ul {
@@ -150,22 +151,31 @@ p.enlarge {
 }
 
 .job h4 {
+  margin: 0;
+
   position: absolute;
   top: 0.35em;
   right: 0
 }
 
-.talents {
-  width: 32%;
-  float: left;
+.skills {
+  display: flex;
 }
 
-.talents h2 {
+.skills .talents {
+  flex: 1;
+}
+
+.skills .talents h2 {
   margin-bottom: 6px;
 }
 
 .no-padding-bottom {
   padding-bottom: 0 !important;
+}
+
+.no-margin {
+  margin: 0;
 }
 
 .no-margin-bottom {
