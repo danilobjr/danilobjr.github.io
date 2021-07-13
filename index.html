@@ -17,13 +17,13 @@
 
 <body>
   <main>
-    <aside class="download-button">
+    <!-- <aside class="download-button">
       <div class="yui-u">
         <div class="contact-info">
           <a href="Danilo-Barros_curriculum.pdf">Download PDF</a>
         </div>
       </div>
-    </aside>
+    </aside> -->
 
     <div class="container">
       <header>
@@ -93,25 +93,23 @@
         <section>
           <h2>Technical Skills</h2>
 
-          <div>
-            <ul class="talent">
+          <div class="skills">
+            <ul class="talents">
+              <li>Node.js</li>
+              <li>Express.js</li>
+              <li>MongoDB</li>
+            </ul>
+
+            <ul class="talents">
               <li>Javascript / Typescript</li>
               <li>React / Redux</li>
               <li>HTML / CSS3 / SASS</li>
-              <li class="no-border-bottom">Git</li>
             </ul>
 
-            <ul class="talent">
+            <ul class="talents">
               <li>Next.js</li>
-              <li>Webpack</li>
-              <li>Bootstrap</li>
-              <li class="no-border-bottom">Material Design</li>
-            </ul>
-
-            <ul class="talent">
-              <li>C#</li>
-              <li>ASP.NET MVC</li>
-              <li>Entity Framework</li>
+              <li>CRA</li>
+              <li><br></li>
             </ul>
           </div>
         </section>
@@ -122,7 +120,7 @@
           <div>
             <div class="job">
               <h2><a href="http://www.ivia.com.br/" target="_blank">IVIA</a></h2>
-              <p>Web Developer</p>
+              <p>Fullstack Developer</p>
               <h4>2010 / 2012</h4>
               <!-- <p class="no-margin-bottom">
                 Desenvolvendo aplicações para diversos clientes da IVIA como
@@ -138,18 +136,23 @@
             </div>
             <div class="job">
               <h2>Freelancer</h2>
-              <p>Web Developer</p>
+              <p>Fullstack Developer</p>
               <h4>2013 / 2014</h4>
             </div>
             <div class="job">
               <h2><a href="http://www.lsbd.ufc.br/" target="_blank">LSBD - Universidade Federal do Ceará</a></h2>
-              <p>Web Developer</p>
+              <p>Fullstack Developer</p>
               <h4>2014 / 2017</h4>
             </div>
-            <div class="job no-padding-bottom no-border-bottom no-margin-bottom">
+            <div class="job">
               <h2><a href="https://beakyn.com/" target="_blank">Beakyn Company</a></h2>
-              <p>Javascript Developer</p>
+              <p>Frontend Developer</p>
               <h4>2017</h4>
+            </div>
+            <div class="job no-padding-bottom no-border-bottom no-margin-bottom">
+              <h2><a href="https://labsit.io/" target="_blank">Labsit</a></h2>
+              <p>Fullstack Developer</p>
+              <h4>2020</h4>
             </div>
           </div>
         </section>
@@ -215,7 +218,7 @@
       return [year, month, day];
     };
 
-    const calculateYearsOld = currentDate => {
+    const calculateMyAge = currentDate => {
       const [year, month, day] = getDateSplittedInArray(currentDate);
       const birthday = { month: 12, day: 11, year: 1984 };
       const age = year - birthday.year;
@@ -229,7 +232,7 @@
     };
 
     window.addEventListener('load', () =>
-      document.querySelector('.years-old').innerText = calculateYearsOld(new Date())
+      document.querySelector('.years-old').innerText = calculateMyAge(new Date())
     );
   </script>
 </body>
